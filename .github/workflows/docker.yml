@@ -2,7 +2,7 @@ name: Build and Push Docker Image
 
 on:
   push:
-    branches: [ main ]  # Or change to your active branch
+    branches: [ master ]  # Or change to your active branch
 
 jobs:
   build:
